@@ -1,9 +1,9 @@
-import './Pagenotfound.css';
+import styles from './Pagenotfound.module.css';
 
 function Pagenotfound(){
     return(
-        <div className='pagenotfound'>
-            <h3 className='pagenotfound__title'>Sorry page not found...🤣</h3>
+        <div className={styles.pagenotfound}>
+            <h1 className={styles.pagenotfound__title}>Sorry page not found...🤣</h1>
         </div>
     )
 }
