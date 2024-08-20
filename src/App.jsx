@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Homepage from "../pages/Homepage";
-import Product from "../pages/Product";
-import Pricing from "../pages/Pricing";
+import Homepage from "../pages/Home/Homepage";
+import Product from "../pages/Product/Product";
+import Pricing from "../pages/Price/Pricing";
+import Pagenotfound from "../pages/Pagenotfound/Pagenotfound";
 
 function App(){
   
@@ -12,6 +13,7 @@ function App(){
       <Route path="/" element={<Homepage />} />
       <Route path="product" element={<Product />} />
       <Route path="pricing" element={<Pricing />} />
+      <Route path="*" element={<Pagenotfound />} />
     </Routes>
    </BrowserRouter>
   )

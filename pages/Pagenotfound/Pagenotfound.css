@@ -1,0 +1,10 @@
+.pagenotfound{
+    text-align: center;
+    padding: 3rem 3rem;
+};
+
+.pagenotfound__title{
+    font-size: 2rem;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,6 +1,6 @@
 function Homepage(){
     return (
-        <div>Homepage</div>
+        <div>WorldTravel</div>
     )
 }
 
